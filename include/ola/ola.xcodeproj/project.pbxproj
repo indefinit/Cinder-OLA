@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		269B935D1A19719A008A6623 /* acn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = acn; sourceTree = "<group>"; };
+		269B935E1A19719A008A6623 /* ActionQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionQueue.h; sourceTree = "<group>"; };
+		269B935F1A19719A008A6623 /* base */ = {isa = PBXFileReference; lastKnownFileType = folder; path = base; sourceTree = "<group>"; };
+		269B93601A19719A008A6623 /* BaseTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTypes.h; sourceTree = "<group>"; };
+		269B93611A19719A008A6623 /* Callback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Callback.h; sourceTree = "<group>"; };
+		269B93621A19719A008A6623 /* CallbackRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackRunner.h; sourceTree = "<group>"; };
+		269B93631A19719A008A6623 /* client */ = {isa = PBXFileReference; lastKnownFileType = folder; path = client; sourceTree = "<group>"; };
+		269B93641A19719A008A6623 /* Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		269B93651A19719A008A6623 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		269B93661A19719A008A6623 /* dmx */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dmx; sourceTree = "<group>"; };
+		269B93671A19719A008A6623 /* DmxBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DmxBuffer.h; sourceTree = "<group>"; };
+		269B93681A19719A008A6623 /* e133 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = e133; sourceTree = "<group>"; };
+		269B93691A19719A008A6623 /* ExportMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExportMap.h; sourceTree = "<group>"; };
+		269B936A1A19719A008A6623 /* file */ = {isa = PBXFileReference; lastKnownFileType = folder; path = file; sourceTree = "<group>"; };
+		269B936B1A19719A008A6623 /* gen_callbacks.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = gen_callbacks.py; sourceTree = "<group>"; };
+		269B936C1A19719A008A6623 /* http */ = {isa = PBXFileReference; lastKnownFileType = folder; path = http; sourceTree = "<group>"; };
+		269B936D1A19719A008A6623 /* io */ = {isa = PBXFileReference; lastKnownFileType = folder; path = io; sourceTree = "<group>"; };
+		269B936E1A19719A008A6623 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		269B936F1A19719A008A6623 /* Logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		269B93701A19719A008A6623 /* make_plugin_id.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = make_plugin_id.sh; sourceTree = "<group>"; };
+		269B93711A19719A008A6623 /* Makefile.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.mk; sourceTree = "<group>"; };
+		269B93721A19719A008A6623 /* math */ = {isa = PBXFileReference; lastKnownFileType = folder; path = math; sourceTree = "<group>"; };
+		269B93731A19719A008A6623 /* messaging */ = {isa = PBXFileReference; lastKnownFileType = folder; path = messaging; sourceTree = "<group>"; };
+		269B93741A19719A008A6623 /* MultiCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiCallback.h; sourceTree = "<group>"; };
+		269B93751A19719A008A6623 /* network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = network; sourceTree = "<group>"; };
+		269B93761A19719A008A6623 /* plugin_id.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plugin_id.h; sourceTree = "<group>"; };
+		269B93771A19719A008A6623 /* rdm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rdm; sourceTree = "<group>"; };
+		269B93781A19719A008A6623 /* rpc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rpc; sourceTree = "<group>"; };
+		269B93791A19719A008A6623 /* slp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = slp; sourceTree = "<group>"; };
+		269B937A1A19719A008A6623 /* stl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stl; sourceTree = "<group>"; };
+		269B937B1A19719A008A6623 /* StringUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		269B937C1A19719A008A6623 /* system */ = {isa = PBXFileReference; lastKnownFileType = folder; path = system; sourceTree = "<group>"; };
+		269B937D1A19719A008A6623 /* testing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testing; sourceTree = "<group>"; };
+		269B937E1A19719A008A6623 /* thread */ = {isa = PBXFileReference; lastKnownFileType = folder; path = thread; sourceTree = "<group>"; };
+		269B937F1A19719A008A6623 /* timecode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = timecode; sourceTree = "<group>"; };
+		269B93801A19719A008A6623 /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
+		269B93811A19719A008A6623 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		269B93571A19719A008A6623 = {
+			isa = PBXGroup;
+			children = (
+				269B935D1A19719A008A6623 /* acn */,
+				269B935E1A19719A008A6623 /* ActionQueue.h */,
+				269B935F1A19719A008A6623 /* base */,
+				269B93601A19719A008A6623 /* BaseTypes.h */,
+				269B93611A19719A008A6623 /* Callback.h */,
+				269B93621A19719A008A6623 /* CallbackRunner.h */,
+				269B93631A19719A008A6623 /* client */,
+				269B93641A19719A008A6623 /* Clock.h */,
+				269B93651A19719A008A6623 /* Constants.h */,
+				269B93661A19719A008A6623 /* dmx */,
+				269B93671A19719A008A6623 /* DmxBuffer.h */,
+				269B93681A19719A008A6623 /* e133 */,
+				269B93691A19719A008A6623 /* ExportMap.h */,
+				269B936A1A19719A008A6623 /* file */,
+				269B936B1A19719A008A6623 /* gen_callbacks.py */,
+				269B936C1A19719A008A6623 /* http */,
+				269B936D1A19719A008A6623 /* io */,
+				269B936E1A19719A008A6623 /* LICENCE */,
+				269B936F1A19719A008A6623 /* Logging.h */,
+				269B93701A19719A008A6623 /* make_plugin_id.sh */,
+				269B93711A19719A008A6623 /* Makefile.mk */,
+				269B93721A19719A008A6623 /* math */,
+				269B93731A19719A008A6623 /* messaging */,
+				269B93741A19719A008A6623 /* MultiCallback.h */,
+				269B93751A19719A008A6623 /* network */,
+				269B93761A19719A008A6623 /* plugin_id.h */,
+				269B93771A19719A008A6623 /* rdm */,
+				269B93781A19719A008A6623 /* rpc */,
+				269B93791A19719A008A6623 /* slp */,
+				269B937A1A19719A008A6623 /* stl */,
+				269B937B1A19719A008A6623 /* StringUtils.h */,
+				269B937C1A19719A008A6623 /* system */,
+				269B937D1A19719A008A6623 /* testing */,
+				269B937E1A19719A008A6623 /* thread */,
+				269B937F1A19719A008A6623 /* timecode */,
+				269B93801A19719A008A6623 /* util */,
+				269B93811A19719A008A6623 /* web */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		269B935C1A19719A008A6623 /* ola */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 269B93821A19719A008A6623 /* Build configuration list for PBXLegacyTarget "ola" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/kevinsiwoff/code/OLA/ola/include/ola;
+			dependencies = (
+			);
+			name = ola;
+			passBuildSettingsInEnvironment = 1;
+			productName = ola;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		269B93581A19719A008A6623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 269B935B1A19719A008A6623 /* Build configuration list for PBXProject "ola" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 269B93571A19719A008A6623;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269B935C1A19719A008A6623 /* ola */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		269B93591A19719A008A6623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		269B935A1A19719A008A6623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		269B93831A19719A008A6623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = ola;
+			};
+			name = Debug;
+		};
+		269B93841A19719A008A6623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = ola;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269B935B1A19719A008A6623 /* Build configuration list for PBXProject "ola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269B93591A19719A008A6623 /* Debug */,
+				269B935A1A19719A008A6623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269B93821A19719A008A6623 /* Build configuration list for PBXLegacyTarget "ola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269B93831A19719A008A6623 /* Debug */,
+				269B93841A19719A008A6623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269B93581A19719A008A6623 /* Project object */;
+}
