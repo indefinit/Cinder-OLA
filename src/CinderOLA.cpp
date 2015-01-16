@@ -19,9 +19,7 @@ OlaManager::~OlaManager()
 
 void OlaManager::setup(uint8_t universe)
 {
-    buffer = make_shared<ola::DmxBuffer>();
-//    pClient = new ola::client::StreamingClient(ola::client::StreamingClient::Options());
-    
+    buffer = make_shared<ola::DmxBuffer>();    
     pClient = make_shared<ola::client::StreamingClient>(ola::client::StreamingClient::Options());
 #ifdef CI_OLA_LOG_DEBUG
     ola::InitLogging(ola::OLA_LOG_DEBUG, ola::OLA_LOG_STDERR);
